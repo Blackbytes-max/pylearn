@@ -13,7 +13,7 @@ while True:
         x -= 4
         print(yearnum + '年是', list[x], '年')
         i = input("\n按下q或Q键退出，或按任意键继续：")
-        if (i == 'q') or (i =='Q'):
+        if (i in ['q','Q'] ):
             break
     else:
         print('我们只算公元后的年份。\n')
