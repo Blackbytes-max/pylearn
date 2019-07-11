@@ -1,2 +1,1 @@
-# pylearn
-This is a backup to my practice of python learning.
+这是我学习python时用于练习的作品
