@@ -131,6 +131,7 @@ class Ui_FlexiableWindow(object):
             a2 = self.lineEdit_3.text()
             s = float(a1) + float(a2)
         except ValueError as e:
+            self.lineEdit.setText('')
             pass
         else:
             self.lineEdit.setText(str(s))  # 设置文本
