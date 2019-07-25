@@ -191,6 +191,7 @@ class Ui_StartWindow(object):
                     self.err('重复的下载链接！')
                 else:
                     self.p.apply_async(s_commend, args=(commend,))  # 异步创建子进程
+                    self.err_info_label.setText('程序已启动')
                     self.commed_links_history.append(commend_links)
 
     def cancel_task(self):
